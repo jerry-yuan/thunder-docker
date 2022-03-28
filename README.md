@@ -1,9 +1,14 @@
 # thunder-docker
 A thunder running in docker and accessed via noVNC on web.
 
-## usage:
+## usage
+
+### build the image
 ```bash
 $ docker build -t thunder .
+```
+### start the container
+```bash
 $ docker run -d \
 	--name Thunder \
 	-p 5800:5800 \
